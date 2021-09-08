@@ -2,9 +2,40 @@
 <html>
 <head>
     <title>Mi primera web</title>
+    <!--agregamos bordes a nuestra tabla-->
+    <style> 
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style> <!--esta aplicando el estilo elegido a la table, a los elemetos th y a los elementos td-->
 </head>
 <body> <!-- Asi podemos poner comentarios al codigo,-->
-
+    <table style="width: 500px;"> 
+        <thead> <!--Indicamos que es la cabecera de la tabla-->
+            <tr>
+                <th>Producto</th><!--th son comlumnas-->
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody> <!--Indicamos que es el cuepo de la tabla-->
+            <tr>
+                <td>Laptop</td><!--td son filas-->
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Protector</td>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <td>Mochila protectora</td>
+                <td>$400</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: $600</td>
+        </tfoot>
+    </table>
     <ul> <!-- ul es una lista no ordenada-->
         <li>Elemento 1</li>
         <li>Elemento 2</li>
