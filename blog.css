@@ -1,0 +1,8 @@
+/* Selector: elemento al que aplicamos los efectos */
+body { /*Propiedad: efecto que le queremos dar a los elementos, valor que le aplicamos a la propuedad*/ 
+    background-color: beige;
+}
+
+p{
+    background-color: blueviolet;
+}
