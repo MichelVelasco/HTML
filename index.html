@@ -4,6 +4,27 @@
     <title>Mi primera web</title>
 </head>
 <body> <!-- Asi podemos poner comentarios al codigo,-->
+
+    <ul> <!-- ul es una lista no ordenada-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <ol> <!-- listas ordenadas-->
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">Sub elemtno 1</li>
+                <li style="list-style-type: lower-roman;">Sub elemtno 2</li>
+                <li style="list-style-type: lower-roman;">Sub elemtno 3</li>
+                <li style="list-style-type: lower-roman;">Sub elemtno 4</li>
+            </ol>
+        </li>
+    </ol>
     <form action="/formulario" method="POST"> <!--formularios-->
         <label for="PrimerNombre">Primer Nombre</label>
         <input type="text" id="PrimerNombre" name="PrimerNombre" placeholder="Primer Nombre"/> 
